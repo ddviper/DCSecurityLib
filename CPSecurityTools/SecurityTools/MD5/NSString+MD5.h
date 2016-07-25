@@ -26,4 +26,9 @@
  *  @return 文件的Md5值
  */
 + (NSString*)fileMD5withFilePath:(NSString*)path readingDataLength:(NSInteger)dataLength;
+
+
+- (NSString *) sha1;
+
+
 @end
